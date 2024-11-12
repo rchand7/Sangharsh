@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "npm run build",
     "start": "node index.js",
-    "postinstall": "npm install && cd frontend && npm install && npm run build"
+    "build": "npm install && cd frontend && npm install && npm run build",
+    "postinstall": "cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

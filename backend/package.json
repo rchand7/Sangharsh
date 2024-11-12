@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "npm run build-backend && npm run build-frontend",
+    "build": "npm run build",
     "start": "node index.js",
     "postinstall": "npm install && cd frontend && npm install && npm run build"
   },
